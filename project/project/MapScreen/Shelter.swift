@@ -14,13 +14,32 @@ class Shelter: NSObject, MKAnnotation{
     var title: String?
     var shelterId: String
     var linkToVK: String?
-    var linkToIntagram: String?
+    var linkToSite: String?
+    var phoneNumber: String?
+    var about: String
+    var lastAnimalPhotoId: Int?
+    var lastNeedNumber: Int?
     
-    init(title: String?, coordinate: CLLocationCoordinate2D, linkToVK: String?, linkToIntagram: String?, shelterId: String) {
+    init(title: String?, coordinate: CLLocationCoordinate2D, linkToVK: String?,
+         linkToSite: String?, shelterId: String, phoneNumber: String?, about: String, lastAnimalPhotoId: Int?, lastNeedNumber: Int?) {
         self.title = title
         self.coordinate = coordinate
         self.linkToVK = linkToVK
-        self.linkToIntagram = linkToIntagram
+        self.linkToSite = linkToSite
         self.shelterId = shelterId
+        self.phoneNumber = phoneNumber
+        self.about = about
+        self.lastAnimalPhotoId = lastAnimalPhotoId
+        self.lastNeedNumber = lastNeedNumber
+    }
+    init(title: String?, coordinate: CLLocationCoordinate2D, linkToVK: String?,
+         linkToSite: String?, shelterId: String, phoneNumber: String?, about: String) {
+        self.title = title
+        self.coordinate = coordinate
+        self.linkToVK = linkToVK
+        self.linkToSite = linkToSite
+        self.shelterId = shelterId
+        self.phoneNumber = phoneNumber
+        self.about = about
     }
 }

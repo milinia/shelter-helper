@@ -14,6 +14,6 @@ class CellForAnimal: UITableViewCell {
     
     func configure(animal: Animal) {
         titleLabel.text = animal.title
-        animalImage.image = animal.image
+        animalImage.image = animal.images[0]
     }
 }

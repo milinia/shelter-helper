@@ -14,7 +14,7 @@ protocol LoginPresenerProtocol{
 
 protocol LoginViewProtocol{
     func showAlert(alert: UIAlertController)
-    func goToMapScreen()
+    func goToScreen(identifier: String, shelter: ShelterInfo)
 }
 
 class LoginViewController: UIViewController, LoginViewProtocol {
@@ -30,10 +30,10 @@ class LoginViewController: UIViewController, LoginViewProtocol {
     
     @IBAction func login(_ sender: Any) {
         
-        if (!emailTextField.hasText || !passwordTextField.hasText){
+        if !emailTextField.hasText || !passwordTextField.hasText {
             present(loginPresenter.getAlertProtocolImpl().createErrorAlert(description: "Please fill both fiels!"), animated: true, completion: nil)
         }
-        else{
+        else {
             loginPresenter.login(email: emailTextField.text!, password: passwordTextField.text!)
         }
     }
@@ -42,7 +42,14 @@ class LoginViewController: UIViewController, LoginViewProtocol {
         present(alert, animated: true, completion: nil)
     }
     
-   func goToMapScreen(){
-        performSegue(withIdentifier: "showApp", sender: nil)
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toShelterAccount", let shelter = sender as? ShelterInfo,
+            let destController  = segue.destination as? ShelterChangingViewController {
+            destController.shelterInfo = shelter
+        }
+    }
+    
+    func goToScreen(identifier: String, shelter: ShelterInfo){
+        performSegue(withIdentifier: identifier, sender: shelter)
     }
 }

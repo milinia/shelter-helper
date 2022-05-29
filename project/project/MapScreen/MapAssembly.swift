@@ -9,7 +9,6 @@ import Foundation
 import UIKit
 
 class MapAssembly: NSObject{
-    
     @IBOutlet weak var mapViewController: UIViewController!
     
     override func awakeFromNib() {

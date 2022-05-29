@@ -22,6 +22,14 @@
 		E5151CDB27D610E0000E0BA3 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5151CDA27D610E0000E0BA3 /* ProfileViewController.swift */; };
 		E5151CDD27D61124000E0BA3 /* ShelterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5151CDC27D61124000E0BA3 /* ShelterViewController.swift */; };
 		E5151CE127D62952000E0BA3 /* MapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5151CE027D62952000E0BA3 /* MapPresenter.swift */; };
+		E518F8F02837EFCF00AFCED4 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = E518F8EF2837EFCF00AFCED4 /* Card.swift */; };
+		E51CCD692843524100A8DC48 /* AddingAnimalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51CCD682843524100A8DC48 /* AddingAnimalViewController.swift */; };
+		E51CCD6B2843525C00A8DC48 /* AddingNeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51CCD6A2843525C00A8DC48 /* AddingNeedViewController.swift */; };
+		E51CCD6D2843528B00A8DC48 /* ShelterChangingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51CCD6C2843528B00A8DC48 /* ShelterChangingViewController.swift */; };
+		E51CCD6F28435FA200A8DC48 /* AddingAnimalPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51CCD6E28435FA200A8DC48 /* AddingAnimalPresenter.swift */; };
+		E51CCD71284363E600A8DC48 /* ShelterInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51CCD70284363E600A8DC48 /* ShelterInfo.swift */; };
+		E51CCD73284368F400A8DC48 /* ShelterChangingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51CCD72284368F400A8DC48 /* ShelterChangingPresenter.swift */; };
+		E51CCD7528436CA300A8DC48 /* AddingNeedPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51CCD7428436CA300A8DC48 /* AddingNeedPresenter.swift */; };
 		E529C84B27FA0E5900671C96 /* ShelterAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = E529C84A27FA0E5900671C96 /* ShelterAssembly.swift */; };
 		E52FBF922802E52B001EF10B /* PaymentPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52FBF912802E52B001EF10B /* PaymentPresenter.swift */; };
 		E52FBF942802FE61001EF10B /* CellForAnimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52FBF932802FE61001EF10B /* CellForAnimal.swift */; };
@@ -38,16 +46,26 @@
 		E53C57CC27DCF05500BC4A39 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53C57CB27DCF05500BC4A39 /* LoginPresenter.swift */; };
 		E53C57CE27DCF74D00BC4A39 /* LoginAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53C57CD27DCF74D00BC4A39 /* LoginAssembly.swift */; };
 		E541E58F27D659BC0093B9ED /* OnboardingView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E541E58E27D659BC0093B9ED /* OnboardingView.storyboard */; };
+		E54D3D1E283645B500B0E7DF /* CarouselCollectionVIewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54D3D1D283645B500B0E7DF /* CarouselCollectionVIewLayout.swift */; };
+		E54D3D202836463C00B0E7DF /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54D3D1F2836463C00B0E7DF /* PhotoCollectionViewCell.swift */; };
+		E56B5957281194F8007CCC5C /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = E56B5956281194F8007CCC5C /* FirebaseStorage */; };
+		E58CAA232843959600A28270 /* ShelterChangingAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58CAA222843959600A28270 /* ShelterChangingAssembly.swift */; };
+		E58CAA2528439A4300A28270 /* AddingNeedAssemby.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58CAA2428439A4300A28270 /* AddingNeedAssemby.swift */; };
+		E58CAA2728439AEC00A28270 /* AddingAnimalAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58CAA2628439AEC00A28270 /* AddingAnimalAssembly.swift */; };
 		E59C4D0127DE341B00707A07 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59C4D0027DE341B00707A07 /* FirebaseManager.swift */; };
 		E59C4D0327DE63DB00707A07 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59C4D0227DE63DB00707A07 /* StartViewController.swift */; };
 		E59D3E3927F06DAA009FA405 /* FireBaseManagerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59D3E3827F06DAA009FA405 /* FireBaseManagerMock.swift */; };
 		E59D3E3B27F099A5009FA405 /* SignUpViewMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59D3E3A27F099A5009FA405 /* SignUpViewMock.swift */; };
+		E5A04F7C283BBE7E00BB45B3 /* CardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A04F7B283BBE7E00BB45B3 /* CardTableViewCell.swift */; };
 		E5A510F427E7136D0066D3EF /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E5A510F327E7136D0066D3EF /* FirebaseFirestore */; };
 		E5AD987E27FF08B2004FA1B0 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AD987D27FF08B2004FA1B0 /* AnimationViewController.swift */; };
 		E5AD988027FF09D8004FA1B0 /* PaymentView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5AD987F27FF09D8004FA1B0 /* PaymentView.storyboard */; };
 		E5AF5B3D27E654AC006D4C6C /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = E5AF5B3C27E654AC006D4C6C /* FirebaseDatabase */; };
+		E5B37016280C3BDB00C0E204 /* AnimalDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B37015280C3BDB00C0E204 /* AnimalDetailViewController.swift */; };
 		E5C1F09627E3295F007E8073 /* MapAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C1F09527E3295F007E8073 /* MapAssembly.swift */; };
 		E5C1F09827E3687E007E8073 /* Shelter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C1F09727E3687E007E8073 /* Shelter.swift */; };
+		E5D11439283EACAC0063BBA3 /* AddingPaymentMethodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D11438283EACAC0063BBA3 /* AddingPaymentMethodViewController.swift */; };
+		E5D1143B283EAD880063BBA3 /* AddingPaymentMethodPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D1143A283EAD880063BBA3 /* AddingPaymentMethodPresenter.swift */; };
 		E5D9178D27FACB9C0097D4A2 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = E5D9178C27FACB9C0097D4A2 /* FirebaseAuth */; };
 		E5D9178F27FB38EA0097D4A2 /* StartPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D9178E27FB38EA0097D4A2 /* StartPresenter.swift */; };
 		E5D9179127FB3AE50097D4A2 /* StartAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D9179027FB3AE50097D4A2 /* StartAssembly.swift */; };
@@ -55,8 +73,10 @@
 		E5E4FA0927DF720500CB376A /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E4FA0827DF720500CB376A /* ResetPasswordViewController.swift */; };
 		E5E4FA0B27DF762400CB376A /* ResetPasswordPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E4FA0A27DF762400CB376A /* ResetPasswordPresenter.swift */; };
 		E5E4FA0D27DF76A000CB376A /* ResetPasswordAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E4FA0C27DF76A000CB376A /* ResetPasswordAssembly.swift */; };
+		E5E8E76B283FC61000A37B96 /* AddingPaymentMethodAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E8E76A283FC61000A37B96 /* AddingPaymentMethodAssembly.swift */; };
 		E5F41FBF27FF7E3400C0888D /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F41FBE27FF7E3400C0888D /* PaymentViewController.swift */; };
 		E5F41FC12800BD8B00C0888D /* ZoomAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F41FC02800BD8B00C0888D /* ZoomAnimator.swift */; };
+		E5FA2E6F280C897E0042B45C /* PaymentAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FA2E6E280C897E0042B45C /* PaymentAssembly.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +111,14 @@
 		E5151CDA27D610E0000E0BA3 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		E5151CDC27D61124000E0BA3 /* ShelterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelterViewController.swift; sourceTree = "<group>"; };
 		E5151CE027D62952000E0BA3 /* MapPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPresenter.swift; sourceTree = "<group>"; };
+		E518F8EF2837EFCF00AFCED4 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		E51CCD682843524100A8DC48 /* AddingAnimalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingAnimalViewController.swift; sourceTree = "<group>"; };
+		E51CCD6A2843525C00A8DC48 /* AddingNeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingNeedViewController.swift; sourceTree = "<group>"; };
+		E51CCD6C2843528B00A8DC48 /* ShelterChangingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelterChangingViewController.swift; sourceTree = "<group>"; };
+		E51CCD6E28435FA200A8DC48 /* AddingAnimalPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingAnimalPresenter.swift; sourceTree = "<group>"; };
+		E51CCD70284363E600A8DC48 /* ShelterInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelterInfo.swift; sourceTree = "<group>"; };
+		E51CCD72284368F400A8DC48 /* ShelterChangingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelterChangingPresenter.swift; sourceTree = "<group>"; };
+		E51CCD7428436CA300A8DC48 /* AddingNeedPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingNeedPresenter.swift; sourceTree = "<group>"; };
 		E529C84A27FA0E5900671C96 /* ShelterAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelterAssembly.swift; sourceTree = "<group>"; };
 		E52FBF912802E52B001EF10B /* PaymentPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentPresenter.swift; sourceTree = "<group>"; };
 		E52FBF932802FE61001EF10B /* CellForAnimal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellForAnimal.swift; sourceTree = "<group>"; };
@@ -107,14 +135,23 @@
 		E53C57CB27DCF05500BC4A39 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
 		E53C57CD27DCF74D00BC4A39 /* LoginAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAssembly.swift; sourceTree = "<group>"; };
 		E541E58E27D659BC0093B9ED /* OnboardingView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnboardingView.storyboard; sourceTree = "<group>"; };
+		E54D3D1D283645B500B0E7DF /* CarouselCollectionVIewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCollectionVIewLayout.swift; sourceTree = "<group>"; };
+		E54D3D1F2836463C00B0E7DF /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		E58CAA222843959600A28270 /* ShelterChangingAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelterChangingAssembly.swift; sourceTree = "<group>"; };
+		E58CAA2428439A4300A28270 /* AddingNeedAssemby.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingNeedAssemby.swift; sourceTree = "<group>"; };
+		E58CAA2628439AEC00A28270 /* AddingAnimalAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingAnimalAssembly.swift; sourceTree = "<group>"; };
 		E59C4D0027DE341B00707A07 /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
 		E59C4D0227DE63DB00707A07 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		E59D3E3827F06DAA009FA405 /* FireBaseManagerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireBaseManagerMock.swift; sourceTree = "<group>"; };
 		E59D3E3A27F099A5009FA405 /* SignUpViewMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewMock.swift; sourceTree = "<group>"; };
+		E5A04F7B283BBE7E00BB45B3 /* CardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTableViewCell.swift; sourceTree = "<group>"; };
 		E5AD987D27FF08B2004FA1B0 /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
 		E5AD987F27FF09D8004FA1B0 /* PaymentView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PaymentView.storyboard; sourceTree = "<group>"; };
+		E5B37015280C3BDB00C0E204 /* AnimalDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailViewController.swift; sourceTree = "<group>"; };
 		E5C1F09527E3295F007E8073 /* MapAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAssembly.swift; sourceTree = "<group>"; };
 		E5C1F09727E3687E007E8073 /* Shelter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shelter.swift; sourceTree = "<group>"; };
+		E5D11438283EACAC0063BBA3 /* AddingPaymentMethodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingPaymentMethodViewController.swift; sourceTree = "<group>"; };
+		E5D1143A283EAD880063BBA3 /* AddingPaymentMethodPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingPaymentMethodPresenter.swift; sourceTree = "<group>"; };
 		E5D9178E27FB38EA0097D4A2 /* StartPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPresenter.swift; sourceTree = "<group>"; };
 		E5D9179027FB3AE50097D4A2 /* StartAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartAssembly.swift; sourceTree = "<group>"; };
 		E5D9239F27ECDA7700BEC73F /* projectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = projectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,8 +159,10 @@
 		E5E4FA0827DF720500CB376A /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
 		E5E4FA0A27DF762400CB376A /* ResetPasswordPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordPresenter.swift; sourceTree = "<group>"; };
 		E5E4FA0C27DF76A000CB376A /* ResetPasswordAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordAssembly.swift; sourceTree = "<group>"; };
+		E5E8E76A283FC61000A37B96 /* AddingPaymentMethodAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingPaymentMethodAssembly.swift; sourceTree = "<group>"; };
 		E5F41FBE27FF7E3400C0888D /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
 		E5F41FC02800BD8B00C0888D /* ZoomAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomAnimator.swift; sourceTree = "<group>"; };
+		E5FA2E6E280C897E0042B45C /* PaymentAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentAssembly.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +173,7 @@
 				E5AF5B3D27E654AC006D4C6C /* FirebaseDatabase in Frameworks */,
 				E5A510F427E7136D0066D3EF /* FirebaseFirestore in Frameworks */,
 				88DEC963612B316B3F48E482 /* Pods_project.framework in Frameworks */,
+				E56B5957281194F8007CCC5C /* FirebaseStorage in Frameworks */,
 				E5D9178D27FACB9C0097D4A2 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -183,6 +223,11 @@
 		E5151CC227D60CB6000E0BA3 /* project */ = {
 			isa = PBXGroup;
 			children = (
+				E51CCD672843521B00A8DC48 /* AddingAnimalScreen */,
+				E51CCD66284351F900A8DC48 /* AddingNeedScreen */,
+				E51CCD65284351BE00A8DC48 /* ShelterChangingScreen */,
+				E5D11437283EAC810063BBA3 /* AddingPaymentMethodScreen */,
+				E5B37014280C3BA700C0E204 /* AnimalDetailScreen */,
 				E5F41FC22800C81C00C0888D /* Resources */,
 				E5AD987C27FEFA61004FA1B0 /* PaymentScreen */,
 				E5AD987B27FEFA40004FA1B0 /* Helpers */,
@@ -253,6 +298,37 @@
 			path = OnboardingScreen;
 			sourceTree = "<group>";
 		};
+		E51CCD65284351BE00A8DC48 /* ShelterChangingScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E51CCD6C2843528B00A8DC48 /* ShelterChangingViewController.swift */,
+				E51CCD70284363E600A8DC48 /* ShelterInfo.swift */,
+				E51CCD72284368F400A8DC48 /* ShelterChangingPresenter.swift */,
+				E58CAA222843959600A28270 /* ShelterChangingAssembly.swift */,
+			);
+			path = ShelterChangingScreen;
+			sourceTree = "<group>";
+		};
+		E51CCD66284351F900A8DC48 /* AddingNeedScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E51CCD6A2843525C00A8DC48 /* AddingNeedViewController.swift */,
+				E51CCD7428436CA300A8DC48 /* AddingNeedPresenter.swift */,
+				E58CAA2428439A4300A28270 /* AddingNeedAssemby.swift */,
+			);
+			path = AddingNeedScreen;
+			sourceTree = "<group>";
+		};
+		E51CCD672843521B00A8DC48 /* AddingAnimalScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E51CCD682843524100A8DC48 /* AddingAnimalViewController.swift */,
+				E51CCD6E28435FA200A8DC48 /* AddingAnimalPresenter.swift */,
+				E58CAA2628439AEC00A28270 /* AddingAnimalAssembly.swift */,
+			);
+			path = AddingAnimalScreen;
+			sourceTree = "<group>";
+		};
 		E541E58D27D6599B0093B9ED /* LoginScreen */ = {
 			isa = PBXGroup;
 			children = (
@@ -289,6 +365,9 @@
 				E5F41FBE27FF7E3400C0888D /* PaymentViewController.swift */,
 				E5F41FC02800BD8B00C0888D /* ZoomAnimator.swift */,
 				E52FBF912802E52B001EF10B /* PaymentPresenter.swift */,
+				E5FA2E6E280C897E0042B45C /* PaymentAssembly.swift */,
+				E518F8EF2837EFCF00AFCED4 /* Card.swift */,
+				E5A04F7B283BBE7E00BB45B3 /* CardTableViewCell.swift */,
 			);
 			path = PaymentScreen;
 			sourceTree = "<group>";
@@ -300,6 +379,26 @@
 				BFC65E7E6C9890033B2AB43D /* Pods_projectTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5B37014280C3BA700C0E204 /* AnimalDetailScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E5B37015280C3BDB00C0E204 /* AnimalDetailViewController.swift */,
+				E54D3D1D283645B500B0E7DF /* CarouselCollectionVIewLayout.swift */,
+				E54D3D1F2836463C00B0E7DF /* PhotoCollectionViewCell.swift */,
+			);
+			path = AnimalDetailScreen;
+			sourceTree = "<group>";
+		};
+		E5D11437283EAC810063BBA3 /* AddingPaymentMethodScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E5D11438283EACAC0063BBA3 /* AddingPaymentMethodViewController.swift */,
+				E5D1143A283EAD880063BBA3 /* AddingPaymentMethodPresenter.swift */,
+				E5E8E76A283FC61000A37B96 /* AddingPaymentMethodAssembly.swift */,
+			);
+			path = AddingPaymentMethodScreen;
 			sourceTree = "<group>";
 		};
 		E5D923A027ECDA7700BEC73F /* projectTests */ = {
@@ -367,6 +466,7 @@
 				E5AF5B3C27E654AC006D4C6C /* FirebaseDatabase */,
 				E5A510F327E7136D0066D3EF /* FirebaseFirestore */,
 				E5D9178C27FACB9C0097D4A2 /* FirebaseAuth */,
+				E56B5956281194F8007CCC5C /* FirebaseStorage */,
 			);
 			productName = project;
 			productReference = E5151CC027D60CB6000E0BA3 /* project.app */;
@@ -527,17 +627,23 @@
 			files = (
 				E53C57C827DCEEB900BC4A39 /* LoginViewController.swift in Sources */,
 				E529C84B27FA0E5900671C96 /* ShelterAssembly.swift in Sources */,
+				E5E8E76B283FC61000A37B96 /* AddingPaymentMethodAssembly.swift in Sources */,
 				E532144027F1ED94003F11DA /* Need.swift in Sources */,
 				E5C1F09827E3687E007E8073 /* Shelter.swift in Sources */,
 				E52FBF9628032099001EF10B /* Animal.swift in Sources */,
 				E5F41FC12800BD8B00C0888D /* ZoomAnimator.swift in Sources */,
 				E59C4D0327DE63DB00707A07 /* StartViewController.swift in Sources */,
+				E518F8F02837EFCF00AFCED4 /* Card.swift in Sources */,
 				E532143E27F1E749003F11DA /* CellForNeeds.swift in Sources */,
 				E5C1F09627E3295F007E8073 /* MapAssembly.swift in Sources */,
+				E51CCD6D2843528B00A8DC48 /* ShelterChangingViewController.swift in Sources */,
 				E5AD987E27FF08B2004FA1B0 /* AnimationViewController.swift in Sources */,
 				E5E4FA0927DF720500CB376A /* ResetPasswordViewController.swift in Sources */,
 				E503A9E527DC93DA00BFFA69 /* SignUpPresenter.swift in Sources */,
+				E54D3D1E283645B500B0E7DF /* CarouselCollectionVIewLayout.swift in Sources */,
 				E5E4FA0D27DF76A000CB376A /* ResetPasswordAssembly.swift in Sources */,
+				E54D3D202836463C00B0E7DF /* PhotoCollectionViewCell.swift in Sources */,
+				E5FA2E6F280C897E0042B45C /* PaymentAssembly.swift in Sources */,
 				E53C57CC27DCF05500BC4A39 /* LoginPresenter.swift in Sources */,
 				E53C57CA27DCEFBF00BC4A39 /* AlertFactory.swift in Sources */,
 				E5D9179127FB3AE50097D4A2 /* StartAssembly.swift in Sources */,
@@ -546,20 +652,33 @@
 				E52FBF942802FE61001EF10B /* CellForAnimal.swift in Sources */,
 				E5151CC827D60CB6000E0BA3 /* MapViewController.swift in Sources */,
 				E5151CC427D60CB6000E0BA3 /* AppDelegate.swift in Sources */,
+				E58CAA2528439A4300A28270 /* AddingNeedAssemby.swift in Sources */,
+				E58CAA2728439AEC00A28270 /* AddingAnimalAssembly.swift in Sources */,
 				E52FBF922802E52B001EF10B /* PaymentPresenter.swift in Sources */,
 				E503A9E327DC93BF00BFFA69 /* SignUpViewController.swift in Sources */,
 				E5D9178F27FB38EA0097D4A2 /* StartPresenter.swift in Sources */,
 				E5151CDD27D61124000E0BA3 /* ShelterViewController.swift in Sources */,
 				E5E4FA0B27DF762400CB376A /* ResetPasswordPresenter.swift in Sources */,
+				E51CCD6B2843525C00A8DC48 /* AddingNeedViewController.swift in Sources */,
+				E5B37016280C3BDB00C0E204 /* AnimalDetailViewController.swift in Sources */,
+				E51CCD7528436CA300A8DC48 /* AddingNeedPresenter.swift in Sources */,
+				E5D11439283EACAC0063BBA3 /* AddingPaymentMethodViewController.swift in Sources */,
 				E53C57C227DCD54C00BC4A39 /* FormChecker.swift in Sources */,
+				E51CCD71284363E600A8DC48 /* ShelterInfo.swift in Sources */,
 				E5151CDB27D610E0000E0BA3 /* ProfileViewController.swift in Sources */,
+				E51CCD692843524100A8DC48 /* AddingAnimalViewController.swift in Sources */,
 				E5F41FBF27FF7E3400C0888D /* PaymentViewController.swift in Sources */,
+				E51CCD6F28435FA200A8DC48 /* AddingAnimalPresenter.swift in Sources */,
+				E58CAA232843959600A28270 /* ShelterChangingAssembly.swift in Sources */,
 				E59C4D0127DE341B00707A07 /* FirebaseManager.swift in Sources */,
+				E5A04F7C283BBE7E00BB45B3 /* CardTableViewCell.swift in Sources */,
 				E53C57CE27DCF74D00BC4A39 /* LoginAssembly.swift in Sources */,
 				E51126E627E3A5F0004383AB /* DataManager.swift in Sources */,
 				E5151CC627D60CB6000E0BA3 /* SceneDelegate.swift in Sources */,
 				E5151CE127D62952000E0BA3 /* MapPresenter.swift in Sources */,
 				E532143C27F1C2C7003F11DA /* CustomSegmentedControl.swift in Sources */,
+				E5D1143B283EAD880063BBA3 /* AddingPaymentMethodPresenter.swift in Sources */,
+				E51CCD73284368F400A8DC48 /* ShelterChangingPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -867,6 +986,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		E56B5956281194F8007CCC5C /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E50290D027DCB4360034C4AD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
 		E5A510F327E7136D0066D3EF /* FirebaseFirestore */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = E50290D027DCB4360034C4AD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;

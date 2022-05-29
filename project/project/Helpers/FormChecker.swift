@@ -15,7 +15,6 @@ class FormChecker{
         let predicate = NSPredicate(format: "SELF MATCHES %@", passwordRegEx)
         return predicate.evaluate(with: password)
     }
-
     func checkEmail(email: String) -> Bool {
         
         let emailRegEx = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
@@ -23,11 +22,9 @@ class FormChecker{
         return predicate.evaluate(with: email)
     }
     func checkPaymentData(amount: String) -> Bool {
-        if amount == "0" {
+        if (amount == "0" || amount == "") {
             return false
         }
-        let amountRegEx = "(?=.*[0-9]).{1,10}"
-        let predicate = NSPredicate(format: "SELF MATCHES %@", amountRegEx)
-        return predicate.evaluate(with: amount)
+        return true
     }
 }
